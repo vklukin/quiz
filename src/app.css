@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    background-color: darkslateblue;
+    padding: 30px;
+    margin-top: 270px;
+    width: 370px;
+    border-radius: 10px;
+}
+
+.quizzz{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+}
+
+.buttons{
+    display: flex;
+    gap: 9px;
+    flex-flow: column;
+}
+
+button{
+    border-radius: 5px;
+    background: none;
+    outline: none;
+    border: 2px solid #fff;
+    font-size: 16px;
+    cursor: pointer;
+    color: #dfd7ff;
+    font-weight: 500;
+    width: 110px;
+    padding: 5px 0;
+    transition: all .1s ease-in;
+}
+
+button:hover{
+    background-color: #dfd7ff;
+    color: darkslateblue;
+}
+
+.question__count{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.question__question{
+    color: #fff;
+    font-size: 16px;
+}
+
+.section__score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 100%;
+    font-size: 24px;
+    color: #fff;
+}
+
+.refresh{
+    margin-top: 20px;
+    width: auto;
+    padding: 5px 15px;
+}
